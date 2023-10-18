@@ -1,0 +1,58 @@
+name: tesla
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/teslaLogo.png"
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/
+
+  fonts:
+    - family: Gotham
+      fonts:
+        - asset: assets/fonts/gothampro.ttf
+        - asset: assets/fonts/gothampro_black.ttf
+        - asset: assets/fonts/gothampro_blackitalic.ttf
+          style: italic
+        - asset: assets/fonts/gothampro_bolditalic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/gothampro_bold.ttf
+          weight: 700
+        - asset: assets/fonts/gothampro_italic.ttf
+          style: italic
+        - asset: assets/fonts/gothampro_light.ttf
+        - asset: assets/fonts/gothampro_lightitalic.ttf
+          style: italic
+        - asset: assets/fonts/gothampro_medium.ttf
+        - asset: assets/fonts/gothampro_mediumitalic.ttf
+          style: italic
